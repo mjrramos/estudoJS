@@ -1,32 +1,35 @@
 .imc {
-  display: flex;
-  width: 100%;
-  height: auto;
+  display: grid;
+  grid-template-columns: 100%;
+  height: 100vh;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-  justify-content: space-around;
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-  height: 600px;
-  background: black;
-  justify-content: center;
-  align-items: center;
+.imc__content {
+  justify-self: center;
 }
 
-.img {
-  display: flex;
-  justify-content: center;
-}
-.img img {
-  width: 300px;
-  height: auto;
+.imc__img img {
+  width: 320px;
   margin-top: 1.5rem;
 }
 
-.input {
+.imc__forms {
   position: relative;
+  height: 370px;
+}
+
+.imc__inputs {
+  width: 100%;
+  background-color: var(--first-color-lighten);
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(35, 0, 77, 0.2);
+}
+
+.imc__inputs h1 {
+  font-size: var(--h1-font-size);
+  margin-bottom: 2rem;
 }
