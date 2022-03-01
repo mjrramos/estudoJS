@@ -13,19 +13,19 @@ toggle.onclick = function(){
     }
 
     if(toggle.classList.contains('active')){
-        lamp.src = '../assets/images/lamp/on.jpg'
+        lamp.src = './assets/images/lamp/on.jpg'
         text.textContent = 'ON'
     }
     else{
         if(!toggle.classList.contains('broken'))
-        lamp.src = '/assets/images/lamp/off_bg.png'
+        lamp.src = './assets/images/lamp/off_bg.png'
         text.textContent = 'OFF'
     }
 }
 
 
 const lampBroken = () => {
-    lamp.src = '/assets/images/lamp/broken_bg.png'
+    lamp.src = './assets/images/lamp/broken_bg.png'
     text.textContent = 'OFF'
     toggle.classList.add('broken')
     toggle.classList.remove('active')
