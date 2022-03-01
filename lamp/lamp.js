@@ -13,7 +13,7 @@ toggle.onclick = function(){
     }
 
     if(toggle.classList.contains('active')){
-        lamp.src = '/assets/images/lamp/on.jpg'
+        lamp.src = '../assets/images/lamp/on.jpg'
         text.textContent = 'ON'
     }
     else{
