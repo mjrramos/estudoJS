@@ -1,5 +1,6 @@
 body {
     background-color: var(--background-dark);
+
     color: var(--first-color-lighten);
 }
 
@@ -15,8 +16,6 @@ body.active {
     margin-bottom: 2.5rem;
     
 }
-
-
 .container{
     
     display: flex;
@@ -27,7 +26,6 @@ body.active {
     transition: 0.5s;
 
 }
-
 
 #toggle {
     position: relative;
